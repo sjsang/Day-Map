@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+:root {
+    --title: #4A3040;
+    --content: #6B5361;
+    --link: #A66B83;
+    --subtitle: #9CA3AF;
+}
+
+html,
+body,
+#root {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100dvh;
+    background: linear-gradient(135deg, #FCE4EC 0%, #F8BBD0 100%);
+    font-family: serif;
+}
